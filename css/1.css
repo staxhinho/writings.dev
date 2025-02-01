@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Recursive:wght@300..1000&display=swap');
+
+body {
+    background-color: #232830;
+    margin: 0;
+    height: 3000px;
+}
+
+.header {
+    position: relative;
+    margin-top: 85.71px;
+}
+
+.blog-body {
+    width: 87.50%;
+    margin: 0 auto;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+    font-size: 24px;
+}
+
+.p-wd {
+    font-size: 30px;
+}
+
+.header-top p {
+    margin: 0;
+}
+
+.header-show {
+    display: block;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.p-wfd {
+    font-family: "Recursive", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 71px;
+    color: #FF7575;
+    margin-bottom: 0px;
+}
+
+.p-dsc {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 29px;
+}
+
+hr {
+    margin: 0;
+    margin-left: -7.14%;
+    margin-right: -7.14%;
+    padding: 0;
+    border: none;
+    border-top: 3px solid #4D4D4D;
+}
+
+.category-list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8%;
+}
+
+.view-type {
+    display: flex;
+    gap: 20px;
+}
+
+.categories {
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    cursor: grab;
+    user-select: none;
+    width: 100%;
+    
+}
+
+.categories p {
+    font-family: "Recursive", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+    font-style: italic;
+    color: #909090;
+    flex-shrink: 0;
+    margin: 10px 25px 10px 25px;
+}
+
+.category-selector.dragging {
+    cursor: grab;
+}
+
+.articles-listing {
+    margin: 0 auto;
+    width: 74.04739583333334%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.97427652733119%;
+}
+
+.article {
+    background-color: #fff;
+    display: block;
+    border-radius: 15px;
+    padding: 6.7846153846153845%;
+}
+
+.article img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.article-title {
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 19px;
+    margin-top: 6.605922551252847%;
+}
+
+.article-info {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 13.21184510250569%;
+}
